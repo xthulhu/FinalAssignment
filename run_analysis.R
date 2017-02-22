@@ -54,4 +54,4 @@ for (s in 1:numSubs) {
     row = row+1
   }
 }
-write.table(res, "data_with_means.txt")
+write.table(res, "data_with_means.txt", row.names = FALSE)
